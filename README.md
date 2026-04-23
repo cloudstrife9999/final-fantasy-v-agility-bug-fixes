@@ -120,3 +120,6 @@ It is recommended to make a backup of the relevant files before running any patc
 It is also recommended to use different output paths for the patched files to avoid accidentally overwriting the original files (relevant for the SNES and *Advance* versions).
 
 Finally, it is also recommended to check that any output path does not already exist (whether it is a file, directory, or symlink) before running the script, to avoid accidentally overwriting important files.
+
+## Credits
+Credits for the original SNES version fix go to J.L. Tseng (instructrtrepe) who first included a description of the bug/fix in his 2004 [Algorithms/Stats FAQ](https://gamefaqs.gamespot.com/snes/588331-final-fantasy-v/faqs/30040). 
