@@ -104,8 +104,8 @@ It is possibe to run `benchmark.py` to print the possible (bugged and non bugged
 * Enemy physical defence: 0.
 * Weapon: Dagger (Atk: 14, random bonuses: [0, 1, 2, 3]).
 * Other equipment: irrelevant, as long as it does not provide any Strength/Agility bonuses.
-* Possible damage rolls: [70, 75, 80, 85]
-* Possible bugged damage rolls: [42, 45, 48, 51]
+* Possible damage rolls: [70, 75, 80, 85].
+* Possible bugged damage rolls: [42, 45, 48, 51].
 
 ``` bash
 python benchmark.py
