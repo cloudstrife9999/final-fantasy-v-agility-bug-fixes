@@ -16,5 +16,13 @@ bugged_m: int = ((level * strength) >> 7) + (((level * agility) % 256) >> 7) + 2
 damages: list[int] = [min(9999, (a - d) * m) if a > d else 0 for a in a_values]
 bugged_damages: list[int] = [min(9999, (a - d) * bugged_m) if a > d else 0 for a in a_values]
 
-print(damages)         # [70, 75, 80, 85]
-print(bugged_damages)  # [42, 45, 48, 51]
+print("Character: Bartz.")
+print(f"Level: {level}.")
+print("Job: Thief.")
+print(f"Level: {level}.")
+print(f"Strength: {strength}.")
+print(f"Agility: {agility}.")
+print(f"Enemy physical defence: {defence}.")
+print(f"Weapon: Dagger (Atk: {atk}, random bonuses: {a_bonuses}).")
+print(f"Possible damage rolls: {damages}")                # [70, 75, 80, 85]
+print(f"Possible bugged damage rolls: {bugged_damages}")  # [42, 45, 48, 51]
