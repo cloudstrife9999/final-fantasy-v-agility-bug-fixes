@@ -92,6 +92,25 @@ In all three versions, the patch can be verified in-game by comparing the damage
 
 Please note that at the beginning of the game, when `Level × Agility < 128` due to low level and agility, the agility contribution to the damage multiplier is 0 with or without the bug. Therefore, the difference will only be visible once the character's level and agility are high enough.
 
+### Benchmark
+
+It is possibe to run `benchmark.py` to print the possible (bugged and non bugged) damage rolls in this scenario:
+* Character: Bartz.
+* Job: Thief.
+* Level: 7.
+* Job level: irrelevant.
+* Strength: 29.
+* Agility: 41.
+* Enemy physical defence: 0.
+* Weapon: Dagger (Atk: 14, random bonuses: [0, 1, 2, 3]).
+* Other equipment: irrelevant, as long as it does not provide any Strength/Agility bonuses.
+* Possible damage rolls: [70, 75, 80, 85]
+* Possible bugged damage rolls: [42, 45, 48, 51]
+
+``` bash
+python benchmark.py
+```
+
 ## Safety
 
 All scripts validate the bytes at the target addresses before applying any changes. If the bytes do not match the expected values (for example, if the ROM or DLL has already been patched, or is a different revision), the script prints an error and exits without modifying anything.
