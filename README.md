@@ -99,7 +99,7 @@ It is possibe to run `benchmark.py` to print the possible (bugged and non bugged
 * Job: Thief.
 * Level: 7.
 * Job level: irrelevant.
-* Ability: irrelevant, as long as it does not provide any Strength bonus (e.g., avoid Barehanded and EqSword).
+* Ability: irrelevant, as long as it does not provide any Strength bonus (e.g., avoid Barehanded and Equip Swords).
 * Strength: 29.
 * Agility: 41.
 * Target Defence: 0.
