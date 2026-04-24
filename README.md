@@ -99,9 +99,10 @@ It is possibe to run `benchmark.py` to print the possible (bugged and non bugged
 * Job: Thief.
 * Level: 7.
 * Job level: irrelevant.
+* Ability: irrelevant, as long as it does not provide any Strength bonus (e.g., avoid Barehanded and EqSword).
 * Strength: 29.
 * Agility: 41.
-* Enemy physical defence: 0.
+* Target Defence: 0.
 * Weapon: Dagger (Atk: 14, random bonuses: [0, 1, 2, 3]).
 * Other equipment: irrelevant, as long as it does not provide any Strength/Agility bonuses.
 * Possible damage rolls: [70, 75, 80, 85].
